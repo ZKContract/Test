@@ -1,0 +1,20 @@
+node:fs:2346
+    return binding.writeFileUtf8(
+                   ^
+
+Error: ENOENT: no such file or directory, open '/Users/qibin/polyhedra/workspace/golang/uniswap-interface/apps/web/src/utils/__generated__/validateTokenList.js'
+    at Object.writeFileSync (node:fs:2346:20)
+    at Object.<anonymous> (/Users/qibin/polyhedra/workspace/golang/uniswap-interface/apps/web/scripts/compile-ajv-validators.js:14:4)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12)
+    at node:internal/main/run_main_module:28:49 {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/qibin/polyhedra/workspace/golang/uniswap-interface/apps/web/src/utils/__generated__/validateTokenList.js'
+}
+
+Node.js v20.15.0
